@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="geo.country" content="US">
+    <meta name="geo.placename" content="United States">
+    <meta name="geo.region" content="US">
+    <meta name="news_keywords" content="news, United States, politics, economy, technology, entertainment, noticias, Estados Unidos, política, economía, tecnología, entretenimiento">
+    <meta name="description" content="Find the latest news in the United States on politics, economy, technology, entertainment, and more. Stay informed with the most relevant headlines in the U.S.!">
+
+
+
+
+    <title>United States News - Latest Headlines in the U.S.</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="link-chat position-fixed" >
+        <a href="https://wa.me/51976963819?text=Hi, I want an WebSite!" target="_blank" ><i class='bx bxl-whatsapp'></i></a>     
+    </div>  
+    <div class="link-chat-2 position-fixed" >
+        <a href=""><i class='bx bxs-book-heart'></i><span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2" id="visitCount" ><span class="visually-hidden">unread messages</span></span></a>    
+    </div> 
+
+    <div class="position-relative conten">
+        
+        <header class="" >
+            <!-- Creador del Portal
+            <div id="creador" >
+                <h5 ><i class="bi bi-code-square"></i> By: Kleibert Medina</h5>
+            </div>
+            -->
+        <nav class="navbar navbar-expand-lg bg-info ">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <i class="bi bi-newspaper"></i> News Today </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex ms-auto p-2" role="search">
+                    <input class="form-control me-2" id="searchInput" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        </header>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active " id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <div class="row " style="margin: 0 auto;" >
+                    <div class="card">
+                        <div class="card-body" > 
+                            <h1 class="position-relative top-0 start badge rounded-pill bg-danger">
+                                News</h1>
+                            <div id="noticias" class="noticias-container" style="display: flex; flex-wrap: wrap; "> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <!-- Tu HTML -->
+    <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://cdn-icons-png.flaticon.com/512/4736/4736380.png" class="img-fluid rounded-start" alt="Kleibert Medina">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title">DEV - Kleibert M.</h5>
+                            <p class="card-text">Welcome to our news portal! Here, you'll find the latest headlines and updates from the United States. Stay informed on politics, economy, technology, entertainment, and more. Our user-friendly interface and search function make it easy to discover news articles that interest you. Join us for up-to-date and relevant news from the U.S.</p><hr>
+                                <div class="d-flex justify-content-start flex-wrap  gap-2 links"  >
+                                    <p class="card-text"><small class="text-body-secondary"><a href="#"><i class="bi bi-paypal"></i></a></small></p>
+                                    <p class="card-text"><small class="text-body-secondary"><a href="#"><i class="bi bi-linkedin"></i></a></small></p>
+                                    <p class="card-text"><small class="text-body-secondary"><a href="#"><i class="bi bi-tiktok"></i></a></small></p>
+                                    <p class="card-text"><small class="text-body-secondary"><a href="#"><i class="bi bi-instagram"></i></a></small></p>
+                                    <p class="card-text"><small class="text-body-secondary"><a href="#"><i class="bi bi-youtube"></i></a></small></p>
+                                    <p class="card-text"><small class="text-body-secondary"><a href="#"><i class="bi bi-facebook"></i></a></small></p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://cdn-icons-png.flaticon.com/512/4727/4727424.png" class="img-fluid rounded-star" alt="Kleibert Medina">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title"><b>Contratame</b></h5>
+                            <p class="card-text">I am a student, I am currently unemployed, and I want to work as a developer, I am a good person, I learn fast, I like to help and I want to be someone who leaves a mark for good in this life. <br> <b>God bless you.</b></p> <hr>
+                                <div class="d-flex justify-content-start flex-wrap  gap-2 links"  >
+                                    <p class="card-text"><small class="text-body-secondary"><a href="#"><i class="bi bi-whatsapp"></i></a></small></p>
+                                    <p class="card-text"><small class="text-body-secondary"><a href="#"><i class="bi bi-envelope-at-fill"></i></a></small></p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    
+</body>
+</html>
